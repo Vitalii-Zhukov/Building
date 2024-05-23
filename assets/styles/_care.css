@@ -1,0 +1,147 @@
+.care{
+    width: 100%;
+    height: max-content;
+    padding: 114px calc((100% - 85%) / 2);
+}
+
+.care__name{
+    font-family: Comfortaa;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #004e77;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+
+.care__list{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 80px 60px;
+    justify-content: center;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+.care__item,
+.care__item__img {
+    max-height: 350px;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    font-family: Comfortaa;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #004e77;
+    /* text-align: center; */
+    border-radius: 20px;
+    background:rgba(0, 145, 233, 0.35);
+    padding: 73px 33px;
+}
+
+/* адаптив на  1512px start */
+
+@media screen and (max-width: 1512px){
+    .care{
+        padding: 109px calc((100% - 97%) / 2);
+    }    
+
+    .care__name{
+        margin-bottom: 47px;
+    }
+
+    .care__list{
+        margin-bottom: 38px;
+    }
+}
+/* адаптив на  1512px end */
+
+/* адаптив на  1260px start */
+
+@media screen and (max-width: 1260px){
+    .care__list{
+        gap: 38px 20px;
+    }  
+}
+/* адаптив на  1260px end */
+
+@media screen and (max-width: 1260px){
+
+    .care{
+        padding: 50px calc((100% - 97%) / 2);
+    }    
+
+    .care__list{
+        grid-template-columns: repeat(3, 250px);
+        margin-bottom: 50px;
+    }  
+
+    .care__name{
+        font-size: 25px;
+    }
+
+    .text{
+        font-size: 20px;
+        padding: 45px 9px;
+    }
+
+    .care__item__img{
+        width: 250px;
+        height: 250px;
+    }
+}
+/* адаптив на  1260px end */
+
+/* адаптив на  833px end */
+
+@media screen and (max-width: 833px){
+
+    .care{
+        padding: 29px calc((100% - 90%) / 2);
+    }    
+
+    .care__list{
+        grid-template-columns: repeat(3, 200px);
+        gap: 38px 15px;
+        margin-bottom: 36px;
+    }  
+
+    .care__name{
+        font-size: 20px;
+    }
+
+    .text{
+        font-size: 16px;
+        padding: 34px 8px;
+    }
+
+    .care__item__img{
+        width: 200px;
+        height: 200px;
+    }
+}
+/* адаптив на  700px end */
+
+@media screen and (max-width: 700px){
+
+    .care__name{
+        padding: 0px 30px;
+    }
+    .care__list{
+        justify-content: start;
+        overflow-x: scroll; 
+        -webkit-overflow-scrolling: touch; 
+    }  
+
+}
+/* адаптив на  700px end */

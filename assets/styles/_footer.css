@@ -1,0 +1,686 @@
+.footer {
+    width: 100%;
+    height: max-content;
+}
+
+.footer__container {
+    background: #B8C2C8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px calc((100% - 85%) / 2);
+
+}
+
+.footer__container h3 {
+    color: #004E77;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 7px;
+    letter-spacing: 1.2px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+
+/* основные контакты start*/
+.footer__container__contacts__main {
+    margin-bottom: 37px;
+}
+
+.footer__container__contacts__main__item__mark_link,
+.footer__container__contacts__main__item__phone_link,
+.footer__container__contacts__main__item__message_link,
+.footer__container__cleaning__item_link,
+.footer__container__information__urlits__item_link,
+.footer__container__information__dop__item_link,
+.footer__container__company__item__about_link,
+.footer__container__company__item__feedback_link,
+.footer__container__company__item__prices_link,
+.footer__container__company__item__shares_link,
+.footer__container__company__itemequipment_link,
+.footer__container__company__item__faq_link,
+.footer__container__company__item__map_link { 
+    display: inline-block;
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    margin-bottom: 15px;
+}
+
+.footer__container__contacts__main__item__mark,
+.footer__container__contacts__main__item__phone,
+.footer__container__contacts__main__item__message {
+    display: flex;
+    margin-top: 12px;
+}
+
+
+.footer__container__contacts__main__item__mark_img,
+.footer__container__contacts__main__item__phone_img,
+.footer__container__contacts__main__item__message_img {
+    filter: #FFFFFF;
+    /* свойтсво filter и fill не применяется к SVG*/
+}
+
+.footer__container__contacts__main__list>li:nth-child(1) img {
+    width: 23px;
+    height: 26.816px;
+    margin-bottom: 15px;
+    margin-right: 12px;
+}
+
+.footer__container__contacts__main__list>li:nth-child(2) img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 17px;
+    margin-right: 3px;
+}
+
+.footer__container__contacts__main__list>li:nth-child(3) img {
+    width: 24px;
+    height: 19px;
+    margin-right: 12px;
+}
+
+.footer__container__contacts__main__list>li:nth-child(1) a {
+    margin-top: 4px;
+}
+
+.footer__container__contacts__main__list>li:nth-child(2) a {
+    margin-top: 4px;
+}
+
+.footer__container__contacts__main__phone__call {
+    @media (min-width:1513px) {
+        display: none;
+    }
+}
+
+.footer__container__contacts__main__phone__calculator__dop {
+    @media (min-width:1513px) {
+        display: none;
+    }
+}
+
+/* основные контакты end*/
+/* социальные сети start*/
+
+.footer__container__contacts__social__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 18px;
+}
+
+.footer__container__contacts__social__list__item__telegram_img,
+.footer__container__contacts__social__list__item__vk_img {
+    width: 50px;
+    height: 50px;
+    fill: #0091E9;
+}
+
+.footer__container__contacts__social__list__item__whatsapp_img {
+    width: 49px;
+    height: 50px;
+    fill: #0091E9;
+}
+
+.footer__container__contacts__call__link__button {
+    color: #004E77;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    border-radius: 50px;
+    border: 2px solid #0091E9;
+    background: #FFF;
+    display: inline-flex;
+    padding: 14px 31px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__container__contacts__social__list__item__message {
+    @media (min-width:1097px) {
+        display: none;
+    }
+}
+
+/* социальные сети end*/
+/* контакты end*/
+
+/* социальные сети для 1512 и 1395 start*/
+
+.footer__container__social {
+    @media (min-width:1513px) {
+        display: none;
+    }
+}
+
+/* социальные сети для 1512 и 1395 end*/
+
+/* клинининг start*/
+
+.footer__container__cleaning {
+    max-width: 234px;
+}
+
+/* клинининг end*/
+
+/* юридическая и дополнительная информация start*/
+/* дополнительная информация start*/
+.footer__container__information__dop__text {
+    margin-top: 33px;
+}
+
+.footer__container__information__dop__text__adaptiv {
+    @media (min-width:1395px) {
+        display: none;
+    }
+}
+
+.footer__container__information__dop__calculator {
+    @media (min-width:1097px) {
+        display: none;
+    }
+}
+
+/* дополнительная информация end*/
+/* юридическая и дополнительная информация end*/
+
+/* информация о компании start*/
+
+.footer__container__company__text__adaptiv {
+    @media (min-width:1395px) {
+        display: none;
+    }
+}
+
+.footer__container__company__item__calculator_link__button {
+    color: #004E77;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    border-radius: 50px;
+    border: 2px solid #0091E9;
+    background: #FFF;
+    display: inline-flex;
+    padding: 7px 40px 9px 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* информация о компании end*/
+
+/* информация для юридических прав start*/
+.footer__copyright {
+    background: #004E77;
+}
+
+.footer__copyright__text {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1px;
+    padding: 10px 0px 9px 0px;
+}
+/* информация для юридических прав end*/
+
+/* список информации для адаптива 982 start*/
+.footer__container__cleaning__calculator__phone {
+    @media (min-width:983px) {
+        display: none;
+    }
+}
+.footer__container__cleaning__information__company {
+    @media (min-width:983px) {
+        display: none;
+    }
+}
+/* список информации для адаптива 982 end*/
+
+/* кнопки и список информации для адаптива 801 start*/
+.footer__container__contacts__main__phone {
+    @media (min-width:802px) {
+        display: none;
+    }
+}
+
+.footer__container__contacts__main__caclulator {
+    @media (min-width:802px) {
+        display: none;
+    }
+}
+
+.footer__container__contacts__main__cleaning__company__list {
+    @media (min-width:802px) {
+        display: none;
+    }
+}
+/* кнопки и список информации для адаптива 801 end*/
+
+/* адаптив на  1512px start */
+@media screen and (max-width: 1512px) {
+
+    .footer__container h3 {
+        margin-bottom: 15px;
+    }
+
+    .footer__container__contacts__main__phone__call__link__button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; 
+        letter-spacing: 0.8px;
+        display: inline-flex;
+        padding: 14px 31px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid #0091E9;
+        background: #FFF;
+        margin-bottom: 22px;
+        margin-top: 7px;
+    }
+
+    .footer__container__contacts__main__phone__calculator__dop__button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.8px;
+        display: flex;
+        padding: 15px 41px 16px 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid #0091E9;
+        background: #FFF;
+    }
+
+    .footer__container__contacts__social {
+        display: none;
+    }
+
+    .footer__container__contacts__phone {
+        display: none; 
+    }
+
+    .footer__container__social {
+        margin-top: 30px;
+    }
+
+    .footer__container__social__list__item__telegram_img,
+    .footer__container__social__list__item__vk_img,
+    .footer__container__social__list__item__whatsapp_img {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 35px;
+    }
+
+    .footer__container__company__item__calculator_link__button {
+        display: none;
+    } 
+}  
+/* адаптив на  1512px end */
+
+/* адаптив на  1395px start */
+
+@media screen and (max-width: 1395px) {
+
+    .footer__container__information__dop__text {
+        display: none;
+    }
+    .footer__container__company__text {
+        display: none;
+    }
+    .footer__container__information__dop__text__adaptiv {
+        margin-top: 15px;
+    }
+}
+
+/* адаптив на  1395px end */
+
+/* адаптив на  1096px start */
+
+@media screen and (max-width: 1096px) {
+
+    .footer__container__contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* .footer__container__contacts__main__item__message {
+        display: none;
+    } */
+
+    .footer__container__contacts__main {
+        margin-bottom: 7px;
+    }
+
+    .footer__container__contacts__main__phone__calculator__dop {
+        display: none;
+    }
+
+    .footer__container__contacts__main__phone__call__link__button {
+        display: none;
+    }
+
+    .footer__container__contacts__social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__container__contacts__social__list {
+        display: grid;
+        grid-template-areas:
+        "telegram vk whatsapp";
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .footer__container__contacts__social__list__item__telegram {
+        grid-area: telegram;
+        margin-bottom: 42px;
+        margin-right: 34px;
+    }
+
+    .footer__container__contacts__social__list__item__vk {
+        grid-area: vk;
+        margin-right: 34px;
+    }
+
+    .footer__container__contacts__social__list__item__whatsapp {
+        grid-area: whatsapp;
+    
+    }
+    
+
+    .footer__container__contacts__social__list__item__telegram_img,
+    .footer__container__contacts__social__list__item__vk_img,
+    .footer__container__contacts__social__list__item__whatsapp_img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .footer__container__contacts__social__list__item__message_img {
+        fill: #0091E9;
+        /* свойтсво filter и fill не применяется к SVG*/
+        width: 66px;
+        height: 52px;
+    }
+
+   .footer__container__contacts__phone {
+        display: block;
+    }
+
+    .footer__container__social {
+        display: none;
+    }
+
+    .footer__container__information__dop__calculator_button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 16px;
+        border-radius: 50px;
+        border: 2px solid #0091E9;
+        background: #FFF;
+        display: flex;
+        padding: 15px 41px 16px 40px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -30px;
+    }
+}
+
+/* адаптив на  1096px end */
+
+/* адаптив на  982px start */
+
+@media only screen and (max-width: 982px) {
+    /* добавить класс в контейнер с уборкой */
+
+    .footer__container__contacts__social__list {
+        margin-top: 20px;
+    }
+
+    .footer__container__contacts__social__list__item__telegram_img,
+    .footer__container__contacts__social__list__item__vk_img,
+    .footer__container__contacts__social__list__item__whatsapp_img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .footer__container__contacts__social__list__item__message_img {
+        width: 54px;
+        height: 43px;
+        margin-top: 5px;
+    }
+
+   .footer__container__contacts__social__list__item__telegram {
+        margin-bottom: 34px;
+        margin-right: 28px;
+    }
+
+    .footer__container__contacts__phone {
+        display: none;
+    }
+
+    .footer__container__information {
+        display: none;
+    }
+
+    .footer__container__company {
+        display: none;
+    }
+
+    .footer__container__cleaning__calculator__phone {
+        margin-top: 16px;
+    }
+
+    .footer__container__cleaning__information__company {
+        margin-top: 16px;
+    }
+
+    /* обновление10 start*/
+    .footer__container__cleaning__calculator__phone__item a{
+        color: #000;
+    }
+
+    .footer__container__cleaning__information__company__list a{
+        color: #000;
+    }
+
+    .footer__container__cleaning__calculator__phone__item,
+    .footer__container__cleaning__information__company__item {
+        /* color: #000; */
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 1px;
+        margin-bottom: 23px;
+    }
+    /* обновление10 end*/
+
+    .footer__container__cleaning__calculator__phone__calculator_button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 16px;
+        display: flex;
+        padding: 15px 41px 16px 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid #0091E9;
+        background: #FFF;
+        margin-left: -17px;
+        margin-bottom: 23px;
+    }
+
+    .footer__container__cleaning__calculator__phone__link__button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 16px;
+        display: flex;
+        padding: 14px 31px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid #0091E9;
+        background: #FFF;
+        margin-left: -26px;
+    }
+}
+
+/* адаптив на  982px end */
+@media (max-width: 900px) {
+    .questions_form_four {
+        display: none;
+    }
+}
+
+/* адаптив на  801px start */
+
+@media only screen and (max-width: 802px) {
+
+    .footer__container {
+        padding: 15px calc((100% - 85%) / 2);
+    }
+    
+    .footer__container__contacts {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 23px;
+    }
+
+    .footer__container__contacts__main {
+        min-width: max-content;
+        margin-bottom: 0px;
+    }
+
+    .footer__container__contacts__item__mark_img {
+        display: none;
+    }
+
+    .footer__container__contacts__main__item__mark_link {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .footer__container__contacts__social__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .footer__container__contacts__social__list__item__telegram {
+        margin: 0px;
+    }
+
+    .footer__container__contacts__social__list__item__telegram_img,
+    .footer__container__contacts__social__list__item__vk_img,
+    .footer__container__contacts__social__list__item__whatsapp_img {
+        width: 51px;
+        height: 51px;
+    }
+
+    .footer__container__contacts__social__list__item__message_img {
+        width: 52px;
+        height: 42px;
+    }
+
+    .footer__container__contacts__main__phone {
+        margin-bottom: 11px;
+    }
+
+    .footer__container__contacts__main__phone__link__button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 14px;
+        display: inline-flex;
+        padding: 15px 21px 15px 22px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 1px solid #0091E9;
+        background: #FFF;
+    }
+
+    .footer__container__contacts__main__caclulator {
+        margin-bottom: 16px;
+    }
+
+    .footer__container__contacts__main__caclulator__link__button {
+        color: #004E77;
+        font-family: Montserrat;
+        font-size: 16px;
+        display: flex;
+        padding: 16px 35px 15px 35px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 1px solid #0091E9;
+        background: #FFF;
+    }
+
+    .footer__container__contacts__main__cleaning__company__list>li:last-child {
+        margin-bottom: 0px;
+    }  
+
+    /* обновление10 start*/
+    .footer__container__contacts__main__cleaning__company__list__item {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.7px;
+    }
+
+    .footer__container__contacts__main__cleaning__company__list__item a{
+        color: #000;
+    }
+    /* обновление10 start*/
+
+    .footer__container__cleaning__calculator__phone {
+        display: none;
+    }
+
+    .footer__container__cleaning__information__company {
+        display: none;
+    }
+
+    .footer__copyright__text {
+        font-size: 14px;
+        padding: 10px 91px 9px 91px;
+    }
+}
+/* адаптив на  801px end */

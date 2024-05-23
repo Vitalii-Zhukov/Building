@@ -1,0 +1,68 @@
+/*
+* Montserrat
+*/
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	src: local('Montserrat'),
+		url('../fonts/Montserrat/Montserrat-Light.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	src: local('Montserrat'),
+		url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	src: local('Montserrat'),
+		url('../fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	src: local('Montserrat'),
+		url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+}
+
+/*
+* Comfortaa
+*/
+@font-face {
+	font-family: 'Comfortaa';
+	font-weight: 300;
+	src: local('Comfortaa'),
+		url('../fonts/Comfortaa/Comfortaa-Light.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Comfortaa';
+	font-weight: 400;
+	src: local('Comfortaa'),
+		url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Comfortaa';
+	font-weight: 500;
+	src: local('Comfortaa'),
+		url('../fonts/Comfortaa/Comfortaa-Medium.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Comfortaa';
+	font-weight: 600;
+	src: local('Comfortaa'),
+		url('../fonts/Comfortaa/Comfortaa-SemiBold.woff') format('woff'),
+}
+
+@font-face {
+	font-family: 'Comfortaa';
+	font-weight: 700;
+	src: local('Comfortaa'),
+		url('../fonts/Comfortaa/Comfortaa-Bold.woff') format('woff'),
+}

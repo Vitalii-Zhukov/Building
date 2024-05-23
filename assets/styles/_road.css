@@ -1,0 +1,780 @@
+section.road {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 102px 0;
+    text-align: center;
+    position: relative;
+}
+
+.road_title {
+    color: #004E77;
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 42px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.road_wrapper {
+    width: 1380px;
+    height: 977px;
+    padding: 172.51px 97px 44px 132px;
+    position: relative;
+}
+
+img.road_fone {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.road_fone_834 {
+    display: none;
+}
+
+.road_fone_320 {
+    display: none;
+}
+
+.road_number {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1f13ae;
+    border-radius: 100%;
+    font-size: 24px;
+    color: #1f13ae;
+    background: #fff;
+}
+
+.road_block_title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: auto;
+}
+
+.road_text {
+    color: #004E77;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.road_block_laptop {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.road_block_laptop .road_block_title {
+    position: relative;
+}
+
+img.road_laptop {
+    position: relative;
+    top: -13px;
+    left: 0;
+}
+
+.road_block_calculator {
+    position: absolute;
+    top: 394px;
+    left: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 21px;
+    text-align: left;
+}
+.road_text.calculator {
+    width: 193px;
+}
+
+img.road_calculator {
+    position: relative;
+    left: 134px;
+}
+
+.road_block_raccoon {
+    position: absolute;
+    top: 756px;
+    left: 75px;
+    display: flex;
+}
+
+.road_text.raccoon {
+    width: 200px;
+    text-align: left;
+}
+
+img.road_raccoon {
+    position: relative;
+    left: -7px;
+}
+
+.road_block_bus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 233px;
+    left: 460px;
+    
+}
+
+.road_text.bus {
+    width: 194px;
+}
+
+img.road_bus {
+    width: 230px;
+    transform: rotate(-26.753deg) scaleX(-1) ;
+    flex-shrink: 0;
+    position: relative;
+    position: absolute;
+    top: 95px;
+}
+
+.road_block_people {
+    display: flex;
+    position: absolute;
+    top: 703px;
+    left: 703px;
+}
+
+img.road_people {
+    position:absolute;
+    top: 30px;
+    left: 180px;
+}
+
+.road_text.people {
+    width: 155px;
+}
+
+.road_block_phone {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 472px;
+    left: 994px;
+}
+
+.road_text.phone {
+    width: 104px;
+}
+
+img.road_phone {
+    position:absolute;
+    left: 184.2px;
+    width: 280px;
+} 
+
+.road_block_money {
+    position: absolute;
+    display: flex;
+    align-items: left;
+    top: 76px;
+    left: 1093px;
+}
+
+img.road_money {
+    position:absolute;
+} 
+
+.road_trafficLight {
+    position: absolute;
+    top: 60px;
+    left: 767px;
+    width: 367.37px;
+    height: 386px;
+}
+
+img.trafficLight {
+    width: 100%;
+    height: 100%;
+}
+
+.trafic_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    top: 183.2px;
+    left: 156.2px;
+}
+
+.traffic {
+    width: 26.5px;
+    height: 26.5px;
+    border-radius: 100%;
+}
+
+.traffic1 {
+    width: 26.5px;
+    height: 26.5px;
+    border-radius: 100%;
+}
+
+.traffic2 {
+    width: 26.5px;
+    height: 26.5px;
+    border-radius: 100%;
+}
+
+@keyframes traffic {
+0% {background: red;}
+20% {background: red;}
+40% {background: red;}
+70% {background: red;}
+75% {background: #605C5C;}
+100%{background: #605C5C}
+}
+@keyframes traffic1 {
+0% {background: #605C5C;}
+20% {background: #605C5C;}
+30%{background: yellow;}
+40%{background: #605C5C;}
+50%{background: yellow;}
+60%{background: #605C5C;}
+70%{background: yellow;}
+75%{background: #605C5C;}
+}
+@keyframes traffic2 {
+0% {background:#605C5C;}
+20% {background: #605C5C;}
+40% {background: #605C5C;}
+60% {background: #605C5C;}
+80%{background: green;}
+100%{background: green;}
+}
+.trafic_container li:nth-of-type(1) {
+animation: traffic 10s linear infinite;
+}
+.trafic_container li:nth-of-type(2) {
+animation: traffic1 10s linear infinite;
+}
+.trafic_container li:nth-of-type(3) {
+animation: traffic2 10s linear infinite;
+}
+
+
+
+@media (max-width: 1512px) {
+    section.road {
+        padding: 72px 0;
+    }
+
+    .road_title {
+        margin-bottom: 47px;
+    }
+
+    .road_wrapper {
+        width: 1161px;
+        height: 814px;
+        padding: 91.85px 59.09px 28px 91px;
+    }
+
+    .road_block_title {
+        gap: 14px;
+    }
+
+    .road_block_laptop {
+        top: 0.16px;
+        left: 12.85px;
+    }
+
+    .road_block_laptop .road_block_title {
+        left: 54.77px;
+    }
+
+    .road_number {
+        width: 52px;
+        height: 52px;
+    }
+
+    .road_text.laptop {
+        width: 257px;
+        text-align: left;
+    }
+
+    .road_text{
+        text-align: left;
+    }
+
+    img.road_laptop {
+        width: 293.589px;
+        height: 220.821px;
+        position: absolute;
+        top: 40.23px;
+    }
+
+    .road_block_calculator {
+        top: 290.67px;
+        left: 0.28px;
+    }
+
+    img.road_calculator {
+        position: absolute;
+        top: 65.33px;
+        left: 112.72px;
+    }
+
+    .road_block_raccoon {
+        position: absolute;
+        top: 620px;
+        left: 22px;
+    }
+
+    img.road_raccoon {
+        position: absolute;
+        left: 245px;
+        top: -17px;
+        width: 198.394px;
+        height: 156.001px;
+    }
+
+    .road_block_bus {
+        top: 116px;
+        left: 363px;
+    }
+
+    .road_block_bus .road_block_title {
+        left: 30.53px;
+        position: relative;
+    }
+
+    img.road_bus {
+        width: 224px;
+        top: 103px;
+        left: -15px;
+    }
+
+    .road_block_people {
+        top: 580px;
+        left: 602px;
+    }
+
+    img.road_people {
+        width: 312.443px;
+        height: 208.254px;
+        top: 14.97px;
+        left: 140.078px;
+    }
+
+    .road_block_phone {
+        top: 321px;
+        left: 874px;
+    }
+
+    img.road_phone {
+        top: 66px;
+        left: 129px;
+        width: 117.655px;
+        height: 147.214px;
+        top: 78px;
+    }
+
+    .road_block_money {
+        top: 5.22px;
+        left: 846px;
+    }
+
+    img.road_money {
+        width: 280.122px;
+        height: 252.238px;
+        top: 33.21px;
+        left: 62.77px;
+    }
+
+    .road_trafficLight {
+        width: 230.881px;
+        height: 263.801px;
+        top: 75px;
+        left: 690px;
+    }
+
+    .trafic_container {
+        gap: 1.5px;
+        top: 124.2px;
+        left: 97px;
+    }
+
+    .traffic {
+        width: 19.5px;
+        height: 19.5px;
+    }
+
+    .traffic1 {
+        width: 19.5px;
+        height: 19.5px;
+    }
+
+    .traffic2 {
+        width: 19.5px;
+        height: 19.5px;
+    }
+
+}
+
+@media (max-width:1161px) {
+    
+    .road_title {
+        margin-bottom: 113px;
+        font-size: 25px;
+        letter-spacing: 1.25px;
+    }
+        
+    .road_fone {
+        display: none;
+    }
+
+    .road_fone_834 {
+        display: block;
+    }
+
+    .road_wrapper {
+        padding: 105px 200.65px 38.15px 38px;
+        width: 700.947px;
+        height: 939.401px;
+    }
+
+    .road_block_title {
+        gap: 10px;
+        
+    }
+
+    .road_block_laptop {
+        top: 0;
+        left: 286px;
+    }
+
+    .road_block_laptop .road_block_title {
+        left: 0;
+    }
+
+    img.road_number {
+        width: 58px;
+        height: 58px;
+    }
+
+    img.road_laptop {
+        width: 215px;
+        height: 161px;
+        top: 42px;
+        left: 99px;
+    }
+
+    .road_block_calculator {
+        top: 57px;
+        left: 0;
+    }
+
+    .road_text {
+        font-size: 15px;
+        letter-spacing: 0.75px;
+    }
+
+    img.road_calculator {
+        width: 187.842px;
+        height: 129px;
+        left: 77px;
+        top: 72px;
+    }
+
+    .road_block_raccoon {
+        top: 278px;
+        left: 57px;
+    }
+
+    img.road_raccoon {
+        width: 183px;
+        height: 143.925px;
+        top: 53px;
+        left: 72px;
+    }
+
+    .road_block_bus {
+        left: 10px;
+        top: 502px;
+    }
+
+    img.road_bus {
+        width: 166.678px;
+        height: auto.749px;
+        transform: rotate(0.112deg);
+        top: -31px;
+        left: 294px;
+    }
+
+    .road_block_people {
+        left: 242px;
+        top: 650px;
+    }
+
+    img.road_people {
+        left: -225px;
+        width: 210px;
+        height: 140px;
+        transform: translateY(-50%);
+    }
+
+    .road_block_phone {
+        top: 780px;
+        left: 233px;
+    }
+
+    img.road_phone {
+        width: 112px;
+        height: 140.166px;
+        top: -3px;
+        left: -112px;
+    }
+
+    .road_block_money {
+        left: 420px;
+        top: 743px;
+    }
+
+    img.road_money {
+        width: 157px;
+        height: 141.401px;
+        left: 24px;
+        top: 51px;
+    }
+    
+    .road_trafficLight {
+        top: 341px;
+        left: 460px;
+        width: 240.947px;
+        height: 261.882px;
+    }
+
+    .trafic_container {
+        gap: 1px;
+        left: 101.5px;
+    }
+
+    .traffic {
+        width: 19px;
+        height: 19px;
+    }
+
+    .traffic1 {
+        width: 19px;
+        height: 19px;
+    }
+
+    .traffic2 {
+        width: 19px;
+        height: 19px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .road_trafficLight {
+        display: none;
+    }
+
+    .road_wrapper {
+        padding: 105px 130.65px 38.15px 108px;
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .road_block_laptop {
+        left: 259px;
+  
+    }
+
+    .road_block_calculator {
+        left: 54px;
+    }
+
+    .road_block_bus {
+        left: 58px;
+    }
+
+    .road_block_people {
+        left: 302px;
+    }
+
+    .road_block_phone {
+        left: 189px;
+    }
+
+    .road_block_money {
+        left: 382px;
+    }
+}
+
+@media (max-width: 620px) {
+    section.road {
+        padding: 8px 0;
+    }
+
+    .road_title {
+        margin-bottom: 30px;
+    }
+
+    .road_fone_834 {
+        display: none;
+    }
+
+    .road_fone_320 {
+        display: flex;
+    }
+
+    .road_wrapper {
+        padding: 40.55px 30.4px 26.83px 13.97px;
+        width: 291.637px;
+        height: 562px;
+    }
+
+    .road_block_laptop .road_block_title {
+        gap: 5px;
+    }
+
+    img.road_number {
+        width: 30.028px;
+        height: 30.028px;
+    }
+
+    .road_text {
+        font-size: 12px;
+        letter-spacing: 0.6px
+    }
+
+    .road_block_laptop {
+        top: 2.62px;
+        left: 149.31px;
+    }
+
+    img.road_laptop {
+        width: 111.311px;
+        height: 83.354px;
+        top: 46px;
+        left: 26.2px;
+    }
+
+    .road_text.laptop {
+        width: 106.526px;
+    }
+
+    .road_block_calculator {
+        top: 55.01px;
+        left: 0;
+    }
+
+    .road_text.calculator {
+        width: 125.736px;
+    }
+
+    img.road_calculator {
+        width: 68.333px;
+        height: 46.927px;
+        top: 40.17px;
+        left: 56.76px;
+    }
+
+    .road_block_raccoon {
+        top: 154.55px;
+        left: 0px;
+    }
+
+    .road_text.raccoon {
+        width: 100.414px;
+    }
+
+    img.road_raccoon {
+        width: 71.054px;
+        height: 55.883px;
+        top: 59.38px;
+        left: 21.83px;
+    }
+
+    .road_block_bus {
+        top: 227.02px;
+        left: 113.47px;
+    }
+
+    .road_text.bus {
+        width: 123.116px;
+    }
+
+    .road_block_bus .road_block_title {
+        left: 0;
+    }
+
+    img.road_bus {
+        width: 107.736px;
+        top: 47.97px;
+        left: 70.63px;
+    }
+
+    .road_block_people {
+        top: 344.03px;
+        left: -1.23px;
+    }
+
+    .road_text.people {
+        width: 95.175px;
+    }
+
+    img.road_people {
+        top: 14.82px;
+        left: 142.3px;
+        width: 97.795px;
+        height: 65.196px;
+        transform: translateY(0);
+    }
+
+    .road_block_phone {
+        top: 446.07px;
+        left: 77.741px;
+    }
+
+    img.road_phone {
+        width: 57.985px;
+        height: 72.568px;
+        top: -14px;
+        left: -62px;
+    }
+
+    .road_block_money {
+        top: 530.88px;
+        left: 140px;
+    }
+
+    img.road_money {
+        width: 113.077px;
+        height: 101.842px;
+        left: 72.77px;
+        top: -73px;
+    }
+}
+
+@media (max-width: 320px) {
+    .road_title {
+        display: none;
+    }
+}

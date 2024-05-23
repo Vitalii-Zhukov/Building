@@ -1,0 +1,413 @@
+.apartment__cleaning {
+    width: 100%;
+    height: max-content;
+    /* position: relative; */
+}
+
+
+/* виды услуг start */
+.apartment__cleaning__main {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px calc((100% - 74.1%) / 2);
+    
+}
+
+.apartment__cleaning__main__sale{
+    /* @media (min-width:835px){
+        display: none;
+    } */
+}
+
+.apartment__cleaning__main__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apartment__cleaning__main__text__name {
+    color: #1f13ae;
+    font-family: Comfortaa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 2.5px;
+    margin-bottom: 11px;
+}
+
+.apartment__cleaning__main__text__desc {
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1px;
+    max-width: 504px;
+    margin-bottom: 89px;
+}
+
+.apartment__cleaning__main__text__order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartment__cleaning__main__text__order__button {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    display: inline-flex;
+    height: 67px;
+    padding: 22px 45px 23px 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #0091E9;
+    background: #FFF;
+
+    /* @media (max-width:835px){
+        display: none;
+    } */
+}
+
+.apartment__cleaning__main__text__order__img {
+    width: 154.182px;
+    transform: rotate(98deg);
+    left: -100px;
+    position: relative;
+}
+
+/* .apartment__cleaning__order{
+    @media (min-width:835px){
+        display: none;
+    }
+} */
+
+.apartment__cleaning__main__picture {
+    overflow: hidden;
+    max-width: 802px;
+    width: 100%;
+    height: 814px;
+    background-image: url(/ApartmentCleaning/assets/images/building/apartment-cleaning-main.png.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: end;
+    padding-right: 20px;
+}
+
+.apartment__cleaning__main__picture__text {
+    color: #0918FF;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    background: linear-gradient(0deg, rgba(27, 47, 106, 0.54) 0%, rgba(0, 233, 211, 0.25) 100%), #FFF;
+    backdrop-filter: blur(13px);
+    max-width: 453px;
+    width: max-content;
+    height: max-content;
+    padding: 31px 30px 31px 32px;
+    margin-top: -250px;
+    margin-right: 129px;
+}
+
+.apartment__cleaning__main__picture__sale {
+    position: relative;
+    width: 404px;
+    object-fit: cover;
+    margin-top: 630px;
+
+}
+
+.apartment__cleaning__frame{
+    padding: 41px calc((100% - 74.1%) / 2);
+}
+
+.apartment__cleaning__frame__general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.apartment__cleaning__frame__general__list__type__item_button,
+.apartment__cleaning__frame__general__list__price__item_button,
+.apartment__cleaning__frame__general__list__example__item_button,
+.apartment__cleaning__frame__general__list__issue__item_button{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(0, 145, 233, 0.16) 0%, rgba(0, 145, 233, 0.16) 100%), #FFF;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.apartment__cleaning__frame__general__list__type__item_button{
+    display: flex;
+    padding: 21px 58px 23px 58px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.apartment__cleaning__frame__general__list__price__item_button{
+    display: flex;
+    width: 265px;
+    padding: 22px 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.apartment__cleaning__frame__general__list__example__item_button{
+    display: flex;
+    padding: 22px 34px 22px 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.apartment__cleaning__frame__general__list__issue__item_button{
+    display: flex;
+    width: 265px;
+    padding: 22px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* преимущества start */
+
+.apartment__cleaning__advantages{
+    padding: 41px calc((100% - 74.1%) / 2);
+}
+
+.apartment__cleaning__advantages__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.apartment__cleaning__advantages__list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apartment__cleaning__advantages__list__item__expertise_img{
+    margin-bottom: 62px;
+    height: 206px;
+}
+
+.apartment__cleaning__advantages__list__item__equipment_img{
+    margin-bottom: 43px;
+}
+
+.apartment__cleaning__advantages__list__item__employees_img{
+    margin-bottom: 58px;
+}
+
+.apartment__cleaning__advantages__list__item__guarantee_img{
+    margin-bottom: 62px;
+}
+
+
+.apartment__cleaning__advantages__list__item__expertise_text,
+.apartment__cleaning__advantages__list__item__equipment_text,
+.apartment__cleaning__advantages__list__item__employees_text,
+.apartment__cleaning__advantages__list__item__guarantee_text{
+    color: #004E77;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+}
+
+.apartment__cleaning__advantages__list__item__expertise_text{
+    max-width: 206px;
+}
+
+.apartment__cleaning__advantages__list__item__equipment_text{
+    max-width: 302px;
+}
+
+.apartment__cleaning__advantages__list__item__employees_text{
+    max-width: 264px;
+}
+
+.apartment__cleaning__advantages__list__item__guarantee_text{
+    max-width: 301px;
+}
+
+.menuframe{
+    display: none;
+}
+
+
+@media (max-width: 1512px) {
+    .apartment__cleaning__main {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .apartment__cleaning__main__text__order {
+        position: relative;
+        justify-content: center;
+    }
+
+    .apartment__cleaning__main__text__order__img {
+        position: absolute;
+        left: 590px;
+        top: -90px;
+    }
+}
+
+@media (max-width: 864px) {
+    .apartment__cleaning__main__picture__text {
+        font-size: 17px;
+        max-width: 453px;
+        width: max-content;
+        height: max-content;
+        padding: 11px 20px 11px 52px;
+        margin-top: -250px;
+        margin-right: 16px;
+    }
+
+    .apartment__cleaning__main__text__order {
+        justify-content: center;
+    }
+
+    .apartment__cleaning__main__text__order__img {
+        left: 50px;
+        top: auto;
+        position: absolute;
+        width: 84.182px;
+    }
+
+    .questions_form_title {
+        font-size: 24px;
+    }
+
+    .apartment__cleaning__main__picture__text {
+        margin-right: 0;
+    }
+
+    .footer__container__contacts__main__list > li:nth-child(1) a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 680px) {
+    .apartment__cleaning__main {
+        padding: 41px calc((100% - 94.1%) / 2);
+    }
+
+    .apartment__cleaning__main__text__name {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .apartment__cleaning__main__text__desc {
+        text-align: center;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+
+@media (max-width: 680px) {
+    .apartment__cleaning__main__text__order__img {
+        display: none;
+    }
+
+    .questions_form_title {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .questions_form_makeQuestions {
+        width: 310px !important;
+    }
+
+    .questions_form_header {
+        width: 270px !important;
+        justify-content: space-between !important;
+    }
+
+    .questions_form_title {
+        width: auto !important;
+    }
+
+    .questions_form_text {
+        font-size: 22px !important;
+    }
+
+    .questions_form_text_info {
+        font-size: 18px !important;
+    }
+
+    .apartment__cleaning__main__picture__text {
+        max-width: 270px;
+        font-size: 14px;
+        padding: 11px 9px 11px 18px;
+        margin-top: -180px;
+        margin-right: -10px;
+    }
+
+    .apartment__cleaning__main__picture__sale {
+        width: 290px;
+    }
+
+    .apartment__cleaning__main__text__name {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .footer__container__contacts__social {
+        display: none !important;
+    }
+
+    .footer__container {
+        justify-content: center;
+    }
+
+    .footer__container__cleaning {
+        width: 276px;
+        max-width: 276px !important;
+    }
+}
+

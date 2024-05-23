@@ -1,0 +1,391 @@
+.includes .carousel-inner img {
+    /* max-width: 1536px; */
+    height: 780px;
+}
+
+.includes .general {
+    padding: 14px 36px 47px;
+}
+
+.includes .hidden {
+    display: none !important;
+}
+
+.includes .mobile {
+    display: none !important;
+}
+
+.includes .general .title {
+    color: #004E77;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #004E77;
+}
+
+.includes .general .actions {
+    margin-top: 24px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.includes .general .actions li {
+    width: 100%;
+    max-width: 350px;
+}
+
+.includes .general .actions li button {
+    backdrop-filter: blur(18px);
+    width: 100%;
+    text-align: center;
+    border-width: 0px;
+    background: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 78, 119, 1);
+    border-radius: 20px;
+    padding: 11px 0;
+    font-size: 20px;
+}
+
+.includes .kitchen,
+.includes .bathroom,
+.includes .general-extended {
+    position: relative;
+    /* background-image: url("../images/building/buildingHouse.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 71px 36px 47px;
+}
+
+
+.includes .kitchen .title,
+.includes .bathroom .title,
+.includes .general-extended .title {
+    align-items: center;
+    position: absolute;
+    justify-content: end;
+    display: flex;
+    width: 95%;
+    gap: 25px;
+    left: 0;
+    top: 11px;
+}
+
+.includes .kitchen .title p,
+.includes .bathroom .title p,
+.includes .general-extended .title p {
+    z-index: 1;
+    color: rgba(0, 78, 119, 1);
+    padding: 6px 30px;
+    text-align: center;
+    font-family: Comfortaa;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 14px;
+    background: #b7d2dd;
+    height: fit-content;
+}
+
+.includes .kitchen .title .separate,
+.includes .bathroom .title .separate,
+.includes .general-extended .title .separate {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    background: rgba(0, 78, 119, 1);
+    height: 2px;
+}
+
+.includes .kitchen .title button,
+.includes .bathroom .title button,
+.includes .general-extended .title button {
+    z-index: 1;
+    display: flex;
+    border-width: 0px;
+    background: #b7d2dd;
+    padding: 13px;
+    border-radius: 20px;
+}
+
+.includes .kitchen .title button img,
+.includes .bathroom .title button img,
+.includes .general-extended .title button img {
+    height: 22px;
+    width: 22px;
+}
+
+.includes .kitchen .main,
+.includes .bathroom .main,
+.includes .general-extended .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+}
+
+.includes .kitchen .main li,
+.includes .bathroom .main li,
+.includes .general-extended .main li {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    height: 100%;
+    backdrop-filter: blur(18px);
+    border-top-left-radius: 12% 50%;
+    border-bottom-left-radius: 12% 50%;
+    border-top-right-radius: 12% 50%;
+    border-bottom-right-radius: 12% 50%;
+    min-height: 51px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.35);
+    width: 100%;
+    align-items: center;
+}
+
+.includes .kitchen .main li .dot,
+.includes .bathroom .main li .dot,
+.includes .general-extended .main li .dot {
+    border-radius: 50%;
+    margin: -10px -5px;
+    height: calc(100% + 10px);
+    border: 1px solid rgba(0, 145, 233, 1);
+}
+
+.includes .kitchen .footer,
+.includes .bathroom .footer,
+.includes .general-extended .footer {
+    margin: 29px auto 0px;
+    display: block;
+    padding: 20px 26px;
+    font-size: 14px;
+    background: rgba(251, 251, 251, 0.8);
+    border: none;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 145, 233, 1)
+}
+
+
+
+.includes .modal-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 100;
+}
+
+.includes .modal-wrapper .modal-content {
+    height: auto;
+    width: auto;
+    background: white;
+    border-radius: 30px;
+    border: 2px solid #1f13ae;
+}
+
+.includes .modal-wrapper .modal-content header {
+    font-size: 16px;
+    color: rgba(0, 78, 119, 1);
+    padding: 25px;
+    border-bottom: 2px solid #1f13ae;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.includes .modal-wrapper .modal-content header button {
+    background: transparent;
+    border: none;
+}
+
+.includes .modal-wrapper .modal-content header button img {
+    height: 43px;
+}
+
+.includes .modal-wrapper .modal-content main {
+    font-size: 14px;
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding: 25px 25px 45px;
+}
+
+.includes .modal-wrapper .modal-content main .list li {
+    display: flex;
+    gap: 10px;
+}
+
+.includes .modal-wrapper .modal-content main .list .dot {
+    margin-top: 10px;
+    height: 4px;
+    width: 4px;
+    min-height: 4px;
+    min-width: 4px;
+    border-radius: 50%;
+    background: rgba(0, 145, 233, 1);
+}
+
+.includes .modal-wrapper .modal-content main .list + .additionally {
+    margin-top: 21px;
+    background: rgba(0, 145, 233, 0.16);
+    border-radius: 40px;
+    padding: 26px 12px;
+    color: black;
+    text-align: justify;
+}
+
+.includes .tablet {
+    margin-top: 60px;
+    padding: 0 42px;
+}
+
+.includes .tablet .title {
+    margin-bottom: 85px;
+    color: #004E77;
+    font-family: Comfortaa;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.includes .tablet .carousel {
+    padding: 0 40px 67px;
+}
+
+.includes .tablet .carousel .carousel-control-next,
+.includes .tablet .carousel .carousel-control-prev {
+    width: 35px;
+    background: none;
+}
+
+.includes .tablet .carousel .carousel-control-next-icon {
+    transform: rotate(180deg);
+}
+
+.includes .tablet .carousel .carousel-control-prev-icon,
+.includes .tablet .carousel .carousel-control-next-icon {
+    height: 60px;
+    width: 35px;
+    background: none;
+}
+
+.includes .tablet .carousel .carousel-indicators {
+    display: flex;
+    gap: 28px;
+}
+
+.includes .tablet .carousel .carousel-indicators [data-bs-target] {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #CFEAFB;
+    margin: 0;
+    border: none;
+}
+
+.includes .tablet .carousel .carousel-indicators [data-bs-target].active {
+    background: #0091E9;
+}
+
+.includes .tablet .actions {
+    margin: 41px auto 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+
+.includes .tablet .actions li {
+    width: 300px;
+}
+
+.includes .tablet .actions li button {
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #1f13ae;
+    padding: 23px 34px;
+    width: 100%;
+}
+
+
+@media (max-width: 834px) {
+    .includes .carousel-control-prev,
+    .includes .carousel-control-next {
+        position: relative;
+        left: 0;
+        top: 0 !important   
+
+    }
+
+    .includes .mobile {
+        display: none !important;
+    }
+
+    .includes .carousel-inner img {
+        height: 600px;
+    }
+
+    .includes .carousel-control-prev {
+        left: 0;
+    }
+
+    .includes .wrapper_button {
+        position: relative;
+    }
+
+    .includes .carousel.slide {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .includes .wrapper_button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .includes .tablet .actions li {
+        width: 200px;
+    }
+}
+
+@media (max-width: 690px) {
+    .includes .carousel-inner img {
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .includes .carousel-inner img {
+        height: 270px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .includes .carousel-inner img {
+        height: 190px;
+    }
+}

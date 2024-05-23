@@ -1,0 +1,452 @@
+.repair_img_wrapper_blog.hidden {
+    display: none;
+}
+
+.repair_info_btn {
+    display: none;
+}
+
+
+.repair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 95px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.repair_header {
+    color: #004E77;
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 42px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.repair_img_wrapper {
+    
+    width: 1275px;
+    height: 812.37px;
+    background: center center/contain no-repeat url('../images/building/buildingHouse.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+
+.repair_img_wrapper_blog {
+    width: 812px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    justify-content: center;
+}
+
+.repair_blog_information {
+    display: flex;
+    width: 386px;
+    height: 102px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(0, 145, 233, 0.19);
+    backdrop-filter: blur(33px);
+    padding: 0 35px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: 1px;
+}
+
+.repair_img_wrapper_blog.second .repair_blog_information {
+    height: 83px;
+    
+}
+
+.repair_img_wrapper_blog.second {
+    margin-top: 62px;
+}
+
+.repair_blog_information.last {
+    width: 100%;
+}
+
+
+.repair_blog_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+}
+
+.repair_btn {
+    display: flex;
+    height: 67px;
+    width: 352px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #1f13ae;
+    background: #FFF;
+}
+
+.repair_text_blog {
+    width: 594px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #004E77;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+    letter-spacing: 1.2px;
+    position: absolute;
+    top: -105px;
+    left: -164px;
+}
+
+.repair_h2_blog {
+    position: absolute;
+    color: #004E77;
+    font-family: Comfortaa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 70px */
+    letter-spacing: 2.5px;
+    top: -108px;
+}
+
+.repair_img_wrapper_blog.second.third {
+    width: 884px;
+    gap: 46px;
+}
+
+.repair_img_wrapper_blog.second.third .repair_blog_information {
+    width: 419px;
+    padding: 0 17px;
+}
+
+.repair_btn.blue {
+    background: linear-gradient(0deg, rgba(27, 47, 106, 0.54) 0%, rgba(0, 233, 211, 0.25) 100%), #FFF;
+    backdrop-filter: blur(13px);
+}
+
+.repair_arr {
+    display: none;
+}
+
+@media (max-width: 1512px) {
+    .repair_header {
+        font-size: 24px;
+        letter-spacing: 1.2px;
+    }
+
+    .repair_img_wrapper {
+        width: 1218px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .repair_blog_btn {
+        flex-wrap: wrap;
+    }
+        
+    .repair_img_wrapper {
+        width: 1018px;
+        height: 650.37px;
+    }
+
+    .repair_text_blog {
+        top: -85px;
+        left: -25px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .repair_img_wrapper {
+        width: 742px;
+        height: 457px;
+    }
+
+    .repair_img_wrapper_blog {
+        width: 623px;
+        gap: 23px;
+    }
+
+    .repair_img_wrapper_blog.second {
+        width: 623px;
+        gap: 15px;
+        margin-top: 0;
+    }
+
+    .repair_img_wrapper_blog.second.third {
+        width: 623px;
+        gap: 23px;
+        margin-top: 0;
+    }
+
+    .repair_img_wrapper_blog.second .repair_blog_information {
+        width: 300px;
+        height: 65px;
+        padding: 0 15px;
+    }
+
+    .repair_img_wrapper_blog.second.third .repair_blog_information {
+        width: 300px;
+        height: 80px;
+    }
+
+    .repair_blog_information {
+        width: 300px;
+        height: 75px;
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%; /* 22.4px */
+        letter-spacing: 0.8px;
+        padding: 0 15px;
+    }
+
+    .repair_text_blog {
+        top: -85px;
+        left: -25px;
+    }
+
+    .repair_text_blog {
+        display: none;
+    }
+
+    .repair_h2_blog {
+        display: none;
+    }
+}
+
+@media (max-width: 834px) {
+    .repair {
+        gap: 46px;
+        position: relative;
+    }
+
+    .repair_blog_btn {
+        width: 352px;
+        gap: 56px;
+    }
+
+    .repair_btn {
+        width: 352px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 28px */
+        letter-spacing: 1px;
+        height: 67px;
+    }
+}
+
+@media (max-width: 714px) {
+    .repair_img_wrapper {
+        width: 642px;
+        height: 417px;
+    }
+}
+
+@media (max-width: 640px) {
+    .repair {
+        
+        padding: 20px 15px;
+        background: center center/cover no-repeat url('../images/building/buildingHouse.png');
+        background-color: white;
+    }
+
+    .repair_header {
+        display: none;
+    }
+
+    .repair_img_wrapper {
+        display: none;
+    }
+    .repair_img_wrapper_blog {
+        display: none;
+    }
+
+    .repair_blog_btn {
+        position: relative;
+        
+    }
+
+    .repair_list {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        gap: 5px;
+    }
+
+    .repair_round {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: #1f13ae;
+    }
+
+    .repair_blog_information {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 19.6px */
+        letter-spacing: 0.7px;
+        height: auto;
+        background: none;
+        padding: 0;
+        justify-content: left;
+        text-align: inherit;
+        backdrop-filter: none;
+    }
+
+    .repair_header_320 {
+        width: 280px;
+        color: #004E77;
+        text-align: center;
+        font-family: Comfortaa;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 28px */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .repair_btn_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .repair_info_btn {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        background: rgba(214, 234, 247, 0.3);
+        padding: 10px;
+        border-radius: 30px; 
+        transition: all 0.5s;
+        overflow: hidden;  
+        margin-top: 20px;
+    }
+
+    .repair_info_btn.hidden {
+        padding: 0 10px;
+        height: 0;
+        transition: all 0.5s;
+        gap: 0;
+        margin: 0;
+    }
+
+    .repair_info_btn.hidden .repair_header_320 {
+        margin: 0;
+    }
+
+    .repair_header_320 {
+        margin-bottom: 20px;
+    }
+
+    .repairGeneralCleaning {
+        display: flex;
+        width: 150px;
+        height: 50px;
+        padding: 8px 26px 8px 27px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 50px;
+        border: 1px solid #0091E9;
+        background: #FFF;
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 16.8px */
+        letter-spacing: 0.6px;
+    }
+
+    
+}
+
+@media (max-width: 370px) {
+    .repair {
+       background: blur(2px);
+    }
+
+    .repair_blog_btn {
+        gap: 24px;
+        width: 289px;
+    }
+
+    .repair_btn {
+        width: 289px;
+        height: 67px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%; /* 22.4px */
+        letter-spacing: 0.8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: left;
+        padding-left: 32px;
+        padding-right: 25px;
+    }
+
+    .repair_arr {
+        display: flex;
+        width: 23px;
+        height: 39px;
+    }
+
+    .repair_btn_text {
+        width: 179px;
+        text-align: left;
+    }
+
+    .repair_blog_information {
+        width: 198px;
+    }
+}

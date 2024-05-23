@@ -1,0 +1,559 @@
+
+.apartmentcleaning__price__main__right__dop__bubble_img {
+    width: 154.182px;
+    transform: rotate(98deg);
+    left: -100px;
+    position: relative;
+    left: 40px;
+    top: 120.2px;
+}
+
+.apartmentcleaning__price{
+    width: 100%;
+    height: max-content;
+    padding: 82px calc((100% - 74.1%) / 2);
+}
+
+.apartmentcleaning__price__name{
+    color: rgb(0, 78, 119);
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.apartmentcleaning__price__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.apartmentcleaning__price__main__left__wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 111px;
+}
+
+.apartmentcleaning__price__main__left{
+    background: #0091E930;
+    padding: 50px 57px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.apartmentcleaning__price__main__left__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+
+
+.name{
+    color: #1f13ae;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    margin-bottom: 30px;
+}
+
+.servies{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid #1f13ae;
+    padding: 22px 40px 22px 39px;
+    max-width: 300px; 
+}
+
+.price{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 35px 29px 35px 30px;
+    max-width: 200px;     
+}
+
+
+.apartmentcleaning__price__main__left__list_item__dophelp{
+    
+    @media (min-width:1513px){
+        display: none;
+    }
+}
+
+.apartmentcleaning__price__main__left__dophelp{
+
+    @media (min-width:835px){
+        display: none;
+    }
+}
+
+.apartmentcleaning__price__main__right__how__block{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid #1f13ae;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+    padding: 22px 37px 22px 37px;
+    max-width: 518px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.apartmentcleaning__price__main__right__how__block.active,
+.apartmentcleaning__price__main__right__how {
+    position: relative;
+}
+
+.apartmentcleaning__price__main__right__how__block__text{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+
+.apartmentcleaning__price__main__right__discr__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.apartmentcleaning__price__main__right__discr__top__name{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-align: left;
+    margin-bottom: 47px;
+    max-width: 255px;
+    margin-left: 25px;
+}
+
+.apartmentcleaning__price__main__right__discr__bottom__text{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 187.5%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+.apartmentcleaning__price__main__right__text{
+    color: #1f13ae;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-align: left;
+    max-width: 494px;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.apartmentcleaning__price__main__right__dop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartmentcleaning__price__main__right__dop__but{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 89px;
+}
+
+.apartmentcleaning__price__main__right__dop__but_button{
+    color: rgb(0, 145, 233);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5%;
+    text-decoration-line: underline;
+    border:0;
+    background:none;
+    margin-top: 8;
+}
+
+.apartmentcleaning__price_btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid #1f13ae;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+    padding: 22px 37px 22px 37px;
+    max-width: 518px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+ 
+.apartmentcleaning__price__main__right__discr__top__img {
+    cursor: pointer;
+}
+
+.apartmentcleaning__price_new_wrapper,
+.apartmentcleaning__price__wrapper_second {
+    display: block;
+    border: 2px solid #1f13ae;
+    border-radius: 30px;
+    backdrop-filter: blur(29px);
+    background: rgba(255, 255, 255, 0.85);
+    max-width: 494px;
+    padding: 33px 30px 29px 16px;
+    position: absolute;
+    z-index: 9;
+}
+
+.apartmentcleaning__price_new_wrapper.hidden, 
+.apartmentcleaning__price__wrapper_second.hidden  {
+    display: none;
+}
+
+.apartmentcleaning__price__main__right__dopdecr{
+    @media (min-width:1513px){
+        display: none;
+    }
+}
+
+/* адаптив на  1512px start */
+
+@media screen and (max-width: 1660px){
+
+    .apartmentcleaning__price{
+        padding: 47px calc((100% - 85%) / 2);
+    }
+
+    .apartmentcleaning__price__name{
+        margin-bottom: 43px;
+    }
+
+    .apartmentcleaning__price__main__left{
+        padding: 67px 49px 67px 22px;
+    }
+
+    .apartmentcleaning__price__main__left__list{
+        gap: 40px;
+    }
+
+    .name{
+        margin-bottom: 0px;
+    }
+
+    .apartmentcleaning__price__main__left__list_item__dophelp_button{
+        color: #1f13ae;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-decoration-line: underline;
+        border:0;
+        background:none;
+        margin-top: 28px;    
+    }
+
+    .apartmentcleaning__price__main__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .apartmentcleaning__price__main__right__dop__but{
+        display: none;
+    }
+
+
+    .apartmentcleaning__price__main__right__dop{
+        justify-content: flex-end;
+        margin-top: 62px;
+        margin-right: 60px;
+        margin-bottom: 89px;
+    }
+    
+    .apartmentcleaning__price__main__right__dopdecr__text{
+        color: rgb(0, 145, 233);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        max-width: 494px;
+    }
+}
+
+/* адаптив на  1512px end */
+
+/* адаптив на  834px start */
+
+@media screen and (max-width: 834px){
+
+
+    .apartmentcleaning__price{
+        padding: 47px calc((100% - 91%) / 2);
+    }
+
+    .apartmentcleaning__price__name{
+        margin-top: 12px;
+        font-size: 25px;
+        margin-bottom: 55px;
+    }
+
+    .apartmentcleaning__price__main__left{
+        padding: 50px 20px 63px 20px;
+    }
+
+    .apartmentcleaning__price__main__left__wrapper{
+        justify-content: space-between;
+        gap: 34px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .servies{
+        padding: 20px 10px;
+        max-width: 248px;
+    }
+
+    .price{
+        padding: 29px 25px 28px 26px;
+    }
+
+    .apartmentcleaning__price__main__left__list_item__dophelp{
+        display: none;
+    }
+
+    .apartmentcleaning__price__main__left__dophelp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .advice{
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        border: 1px solid rgb(0, 145, 233);
+        border-radius: 50px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        padding: 23px 33px;
+        margin-bottom: 44px;
+    }
+
+    .cost{
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        border: 1px solid rgb(0, 145, 233);
+        border-radius: 50px;
+        background: rgb(191, 227, 249);
+        text-align: center;
+        padding: 22px 40px;
+        margin-bottom: 13px;
+    }
+
+    .apartmentcleaning__price__main__right__how__block{
+        margin-top: 30px;
+        width: 443px;
+        
+    }
+
+    .apartmentcleaning__price__main__right__dop__bubble,
+    .apartmentcleaning__price__main__right__dop{
+        display: none;
+    }
+
+    .apartmentcleaning__price__main__right__dopdecr__text{
+        margin-top: 62px;
+        text-align: center;
+    }
+
+    .apartmentcleaning__price__main__right {
+        align-items: center;
+    }
+}
+
+/* адаптив на  834px end */
+
+/* адаптив на  511px start */
+
+@media screen and (max-width: 511px){
+
+    .apartmentcleaning__price__main__left__wrapper{
+        gap: 10px;
+    }
+
+    .servies{
+        font-size: 16px;
+        border: 1px solid #1f13ae;
+    }
+
+    .price{
+        padding: 29px 10px;
+        font-size: 18px;
+    }
+}
+    
+/* адаптив на  511px end */
+@media (max-width: 500px) {
+    .apartmentcleaning__price__main__right__how__block__text{
+        text-align: center;
+    }
+
+    .apartmentcleaning__price_btn {
+        width: 301px;
+    }
+
+    .apartmentcleaning__price__main__right__how__block {
+        width: 301px;
+        margin-top: 0;
+    }
+
+    .apartmentcleaning__price__main__right__discr.active {
+        width: 301px;
+    }
+
+    .apartmentcleaning__price_new_wrapper {
+        width: 301px;
+    }
+
+
+}
+/* адаптив на  390px start */
+
+@media screen and (max-width: 390px){
+
+    .apartmentcleaning__price{
+        padding: 27px calc((100% - 90%) / 2);
+    }
+
+    .apartmentcleaning__price__name{
+        font-size: 20px;
+    }
+    
+    .apartmentcleaning__price__main__left{
+        padding: 40px 19px;
+    }
+
+    .apartmentcleaning__price__main__left__wrapper{
+        gap: 4px;
+    }
+
+    .apartmentcleaning__price__main__left__list{
+        gap: 20px;
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+
+    .servies{
+        font-size: 12px;
+        max-width: 145px;
+        border: 1px solid #1f13ae;
+        padding: 16px 8px;
+    }
+
+    .price{
+        padding: 24px 8px;
+        font-size: 12px;
+    }
+
+    .apartmentcleaning__price__main__left__dophelp{
+        margin-top: 40px;
+    }
+
+    .advice{
+        margin-bottom: 30px;
+        font-size: 12px;
+        padding: 8px 26px;
+        max-width: 150px;
+    }
+
+    .cost{
+        font-size: 12px;
+        padding: 8px 26px;
+        max-width: 150px;
+        margin-top: 4px;
+    }
+
+    .apartmentcleaning__price__main__right__how__block{
+        border: 1px solid #1f13ae;
+        justify-content: space-around;
+        max-width: max-content;
+        margin-top: 65px;
+    }
+
+    .apartmentcleaning__price__main__right__how__block__text{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .apartmentcleaning__price__main__right__dopdecr{
+        display: flex;
+        justify-content: center;
+    }
+
+    .apartmentcleaning__price__main__right__dopdecr__text{
+        margin-top: 20px;
+        font-size: 12px;
+        max-width: 185px;
+    }
+
+    .apartmentcleaning__price__main__right__discr__bottom__text,
+    .apartmentcleaning__price__main__right__discr__top__name{
+        font-size: 12px;
+    }
+}
+    
+/* адаптив на  390px end */
