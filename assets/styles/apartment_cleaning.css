@@ -13,11 +13,7 @@
     
 }
 
-.apartment__cleaning__main__sale{
-    /* @media (min-width:835px){
-        display: none;
-    } */
-}
+
 
 .apartment__cleaning__main__text {
     display: flex;
@@ -93,7 +89,7 @@
     max-width: 802px;
     width: 100%;
     height: 814px;
-    background-image: url(/ApartmentCleaning/assets/images/building/apartment-cleaning-main.png.jpeg);
+    background-image: url(../assets/images/building/apartment-cleaning-main.png.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
