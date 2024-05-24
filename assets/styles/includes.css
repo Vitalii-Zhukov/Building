@@ -254,6 +254,9 @@
 .includes .tablet {
     margin-top: 60px;
     padding: 0 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .includes .tablet .title {
@@ -267,6 +270,7 @@
 
 .includes .tablet .carousel {
     padding: 0 40px 67px;
+    max-width: 1500px;
 }
 
 .includes .tablet .carousel .carousel-control-next,

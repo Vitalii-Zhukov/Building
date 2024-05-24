@@ -59,7 +59,7 @@
     align-items: center;
     flex-shrink: 0;
     border-radius: 30px;
-    background: rgba(0, 145, 233, 0.19);
+    background: rgba(0, 145, 233, 0.4);
     backdrop-filter: blur(33px);
     padding: 0 35px;
     color: #000;
@@ -67,7 +67,7 @@
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 140%; /* 28px */
     letter-spacing: 1px;
 }
