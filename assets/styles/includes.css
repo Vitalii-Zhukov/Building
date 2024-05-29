@@ -271,6 +271,7 @@
 .includes .tablet .carousel {
     padding: 0 40px 67px;
     max-width: 1500px;
+    width: 1400px;
 }
 
 .includes .tablet .carousel .carousel-control-next,
@@ -327,6 +328,13 @@
     border: 2px solid #1f13ae;
     padding: 23px 34px;
     width: 100%;
+}
+@media (max-width: 1512px) {
+    .includes .tablet .carousel {
+        padding: 0 40px 67px;
+        max-width: 1500px;
+        width: 100%;
+    }
 }
 
 
